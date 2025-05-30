@@ -1,0 +1,24 @@
+# Ignore the uncompressed database
+database.sqlite
+
+# Optional: ignore the ZIP too if you have it
+database.sqlite.zip
+
+# Transcripts, embeddings, uploads
+/transcripts/
+/embeddings/
+/lectures/
+
+# Virtual environment
+/venv/
+*.py[cod]
+
+# Streamlit cache
+.streamlit/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+.env
